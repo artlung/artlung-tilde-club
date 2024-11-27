@@ -16,7 +16,6 @@ class WebmentionIoClient
      */
     private $data;
 
-    // 'cache/.webmentions.json'
     private $cacheFile = 'cache/.webmentions.json';
 
     public function setUrl($string)
@@ -42,7 +41,6 @@ class WebmentionIoClient
      */
     private function getDomain()
     {
-        // extract domain from url
         $url = $this->url;
         if (!$url) {
             throw new Exception("Invalid URL. Set a valid URL with setUrl()");
@@ -56,7 +54,6 @@ class WebmentionIoClient
      */
     private function getToken()
     {
-        // read the file .webmention-token
         $token = file_get_contents('.webmention-token');
         if (!$token) {
             throw new Exception("No token found. Create a file .webmention-token with your token.");
@@ -137,8 +134,8 @@ class WebmentionIoClient
     public function printDL()
     {
         $data = $this->data;
-        // sort by published date descending
 
+        // sort by published date descending
         usort($data['children'], function ($a, $b) {
             return strtotime($b['published']) - strtotime($a['published']);
         });
