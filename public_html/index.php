@@ -32,6 +32,7 @@ www.w3.org</A></I></P>
 <LI>I&#39;m doing videos <A href="https://www.youtube.com/@artlung">on YouTube</A>.</LI>
 <LI>I love doing <A href="https://cssbattle.dev/player/artlung">CSS Battles</A>!</LI>
 <LI>I added support for accepting webmentions via <A href="https://webmention.io/">webmention.io</A> They're displayed below.</LI>
+<LI>The code for this Tilde.Club page is now on <A HREF="https://github.com/artlung/artlung-tilde-club/">GitHub</A></LI>
 </UL>
     </DD>
   <DT>Update July 2024</DT>
@@ -108,6 +109,7 @@ $month = date('F', $index_php_last_modified);
 $year = date('Y', $index_php_last_modified);
 printf("Updated %s %s.", $month, $year);
  ?></I>
+    (Source is on <A HREF="https://github.com/artlung/artlung-tilde-club/">GitHub</A>)
 
 </BODY>
 </HTML>
