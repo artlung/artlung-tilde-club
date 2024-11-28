@@ -59,7 +59,7 @@ form {
     --from: 0deg;
   }
 }
-h2:has(+ dl) {
+h2:has(+ dl + form) {
   border: 3px double orange;
   background: bisque;
   padding: 0.1rem 0.5rem;
@@ -67,6 +67,7 @@ h2:has(+ dl) {
   color: darkred;
   font-family: sans-serif;
 }
+
 
 dl:has(+ form) {
   display: grid;
