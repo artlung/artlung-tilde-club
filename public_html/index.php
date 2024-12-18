@@ -7,6 +7,7 @@
     echo '?' . filemtime('tilde.css');
   ?>">
   <LINK rel="webmention" href="https://webmention.io/artlung.com/webmention">
+   <LINK rel="og:image" href="https://tilde.club/~artlung/og-tilde-club-artlung.jpg">
 </HEAD>
 <BODY>
 
@@ -22,6 +23,32 @@ www.w3.org</A></I></P>
 <HR>
 <H2>Updates</H2>
 <DL>
+    <DT>December 2024</DT>
+    <DD>
+
+        <UL>
+            <LI>
+                I revamped two websites. Both started years ago as pages on artlung.com and made their way to subdomains.
+                There, I could ignore them. And this year, they have been exhumed and polished up! And so:
+                <a href="https://smorgasborg.artlung.com">Smorgasborg</a> is a collection of random stuff. It's not on GitHub. And <a href="https://lab.artlung.com">THE LAB</a>
+                is also a collection of random stuff, with a more programming, especially <I>web programming</I> focus.
+                It <I><a href="https://github.com/artlung/lab.artlung.com/">is on GitHub</a></I>
+            </LI>
+            <LI>
+                I'm particularly proud of my recent page about
+                <a href="https://lab.artlung.com/webmentions/">Webmentions</a>.
+            </LI>
+            <LI>
+                There have been a few more <a href="https://indieweb.org/Front_End_Study_Hall">Front End Study Hall</a> events since then. Still wonderful.
+            </LI>
+            <LI>
+                I started making videos of myself haphazardly doing the daily CSS Battle.
+                <a href="https://www.youtube.com/@artlung">@artlung on YouTube</a>
+            </LI>
+        </UL>
+
+    </DD>
+
   <DT>November 2024</DT>
   <DD>
 <UL>
