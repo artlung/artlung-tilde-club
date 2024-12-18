@@ -45,6 +45,13 @@ www.w3.org</A></I></P>
                 I started making videos of myself haphazardly doing the daily CSS Battle.
                 <a href="https://www.youtube.com/@artlung">@artlung on YouTube</a>
             </LI>
+            <LI>
+                <a href="https://events.indieweb.org/2024/12/indiewebcamp-san-diego-2024-7C9aq9A4Zv9m">
+                    San Diego IndieWeb Camp 2024
+                </a> was a delight! Excellent people and excellent ideas at an excellent local zine publisher and shop:
+
+                <a href="https://www.babandfriends.com">Burn All Books &amp; Friends</a>.
+            </LI>
         </UL>
 
     </DD>
