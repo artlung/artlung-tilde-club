@@ -23,6 +23,37 @@ www.w3.org</A></I></P>
 <HR>
 <H2>Updates</H2>
 <DL>
+    <DT>January 2025</DT>
+    <DD>
+        <UL>
+            <LI>
+                <I><A href="http://smorgasborg.artlung.com/foods/">All The Foods I Cannot Eat</A></I> is a zine by <A href="https://leohblooms.com/">Leoh Blooms</A> which was made in 2017 and now has a proper home on the web.
+            </LI>
+            <LI>
+                On the Lab: there's
+                <A href="https://lab.artlung.com/spoiler/">Spoiler Widget</A> &amp;
+                <A href="https://lab.artlung.com/root-color-properties-editor/">:root Color Properties Editor</A>
+            </LI>
+            <LI>
+                My affirmations bot is back up and  running and I'm very pleased about that:
+                <A HREF="https://thisbot.day/@affirmations">@affirmations@thisbot.day</A> on Mastodon &amp;
+                <A HREF="https://bsky.app/profile/thisbot.day">thisbot.day on Bluesky</A>.
+            </LI>
+            <LI>
+                <A HREF="https://www.youtube.com/@artlung">YouTube</A> is still where  I am doing videos of <A href="https://cssbattle.dev/">CSS Battle Daily Targets</A>. I've done a third of them and won't stop until I've done all of them. I have done 192. I have 376 undone.
+            </LI>
+            <LI>
+                And at the <a href="https://smorgasborg.artlung.com/">Smorgasborg</a>:
+                Interviews with
+                <A HREF="https://smorgasborg.artlung.com/davidletterman/">David Letterman</A> &amp;
+                <A HREF="https://smorgasborg.artlung.com/douglasadams/">Douglas Adams</A>.<BR>
+                Plus a revamped copy of
+                <I><A HREF="https://smorgasborg.artlung.com/power-of-the-powerless/">The Power  of the Powerless</A></I> by Václav Havel<BR> Lastly, I just put up a
+                <A HREF="http://smorgasborg.artlung.com/sageman/">2006 talk by Marc Sageman</A> which I think about a lot.
+            </LI>
+        </UL>
+
+    </DD>
     <DT>December 2024</DT>
     <DD>
 
