@@ -23,6 +23,31 @@ www.w3.org</A></I></P>
 <HR>
 <H2>Updates</H2>
 <DL>
+
+    <DT>February 2025</DT>
+    <DD>
+        <UL>
+            <LI>
+                Progress on the effort to <A HREF="https://artlung.com/cssbattles/">make videos</A> of myself doing the daily CSS Battle: 66% complete.
+            </LI>
+            <LI>
+                <A HREF="https://artlung.com/blog/2025/01/24/use-it/"><I>"USE IT"</I></A> is a comic I'm proud of.
+            </LI>
+            <LI>
+                I created a <A HREF="https://artlung.com/projects/">Projects</A> page. It contains its own updates. RSS is rad.
+            </LI>
+            <LI>
+                The IndieWeb Carnival for this month has the theme of "affirmations." If you want to participate, <A HREF="https://artlung.com/affirmations-ic/">check it out</A>.
+            </LI>
+            <LI>
+                I don't use Instagram <I>much</I>, but I do use it: <a href="https://www.instagram.com/artlung">@ARTLUNG</a>.
+                And Strava: <a href="https://www.strava.com/athletes/artlung">ARTLUNG</a>. Mastodon: <A href="https://xoxo.zone/@artlung">@ARTLUNG</A>. Bluesky: <A href="https://bsky.app/profile/artlung.com">ARTLUNG</A>.
+            </LI>
+
+        </UL>
+    </DD>
+
+
     <DT>January 2025</DT>
     <DD>
         <UL>
@@ -166,7 +191,7 @@ It's Comic-Con month. It ought to be fun! Rock on people!
 
 <P>
 
-  <A href="./tilde.map.php"><IMG src="https://tilde.club/~harper/webring.png" ISMAP></A>
+  <A href="./tilde.map.php"><IMG src="https://tilde.club/~harper/webring.png" ismap></A>
 
   <I>
 Click for the [

@@ -7,8 +7,8 @@ body {
   box-sizing: border-box;
   margin: 0 auto;
   padding: 2ch;
-  background: linear-gradient(#fff, #fff) 50% 50% / 72ch 200% repeat-y, conic-gradient(from var(--from), red, orange, blue, green, indigo, violet) 50% 50% / 73ch 300% no-repeat #ccc;
-  height: 100%;
+  background: linear-gradient(#fff, #fff) 50% 50% / 72ch 200% repeat-y, conic-gradient(from var(--from), red, orange, blue, green, indigo, violet) 50% 50% / 73ch 500vh no-repeat #ccc;
+  min-height: 100%;
   animation: swirl 20s infinite;
   --from: 45deg;
 
@@ -96,4 +96,13 @@ dl:has(+ form) {
 
 }
 
+a:has(img[ismap]) {
+  display: block;
+  width: min-content;
+  img {
+    display: block;
+    width: 549px;
+    height: 60px;
+  }
+}
 
