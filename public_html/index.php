@@ -24,6 +24,42 @@ www.w3.org</A></I></P>
 <H2>Updates</H2>
 <DL>
 
+    <DT>April 2025</DT>
+    <DD>
+        <UL>
+            <LI>
+                It's been more than a month since my last update! Missed March entirely due to how busy I was! But I've made so many things since then!
+            </LI>
+            <LI>
+                <A HREF="https://artlung.com/cssbattles/">CSS Battle Progress</A> is at 94%. 343 Videos about 635 Daily Targets on <A HREF="https://cssbattle.dev/">CSS Battle.dev</A>. 3 dozen to go. And a new one rolling out daily.
+            </LI>
+            <LI>
+                I am mirroring my <A HREF="https://artlung.com/indieweb/">Profile page from indieweb.org</A> as well as the <A HREF="https://artlung.com/front-end-study-hall/">Front End Study Hall</A> page. The latter picks up the webmentions sent to it. And FrESH celebrated a one year anniversary and I wrote about it
+                <A HREF="https://artlung.com/blog/2025/04/25/study-hall-reflections/">Study Hall Reflections</A>. I'm quite proud that I've put the effort to continue the event and folks enjoy it.
+            </LI>
+            <LI>
+                The Front Page of <A HREF="https://artlung.com/">ARTLUNG.COM</A> is no longer under WordPress and it has been fun choosing and playing with tuning what's on it and pulling in content via RSS.
+            </LI>
+            <LI>
+                Silly things added to <A HREF="https://smorgasborg.artlung.com/">Smorgasborg</A>:
+                <A HREF="https://smorgasborg.artlung.com/maarva/">Maarva Carassi Andor HAS A POSSE</A>;
+                <A HREF="https://smorgasborg.artlung.com/indieweb-sickos/">IndieWeb Sickos</A>;
+
+                <A HREF="https://smorgasborg.artlung.com/guru-meditation/">Software Failure. Guru Meditation</A>;
+                and
+                <A HREF="https://smorgasborg.artlung.com/this-man-velvet-touch/">
+                    This Man Wants To Clean Your Clothes (Velvet Touch Dry Cleaners &amp; Laundry)
+                </A>.
+
+
+            </LI>
+            <LI>I've been saying "everyone's carrying web browsers around, make a web page" and I rather like that sentiment amidst our world drowning in malevolent people gutting the notion of aid and comfort to our fellow human beings.</LI>
+
+            <LI>Until next time, <B>GO MAKE A WEB PAGE</B></LI>
+        </UL>
+    </DD>
+
+
     <DT>February 2025</DT>
     <DD>
         <UL>
