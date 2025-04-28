@@ -38,7 +38,7 @@ www.w3.org</A></I></P>
                 <A HREF="https://artlung.com/blog/2025/04/25/study-hall-reflections/">Study Hall Reflections</A>. I'm quite proud that I've put the effort to continue the event and folks enjoy it.
             </LI>
             <LI>
-                The Front Page of <A HREF="https://artlung.com/">ARTLUNG.COM</A> is no longer under WordPress and it has been fun choosing and playing with tuning what's on it and pulling in content via RSS.
+                The Front Page of <A HREF="https://artlung.com/">ARTLUNG.COM</A> is no longer under WordPress and it has been fun choosing and playing with tuning what's on it and pulling in content via RSS. And kudos to <A HREF="https://gregorlove.com/">gRegor</A> for finding bugs with both search and my webmention endpoints which I rely on!
             </LI>
             <LI>
                 Silly things added to <A HREF="https://smorgasborg.artlung.com/">Smorgasborg</A>:
