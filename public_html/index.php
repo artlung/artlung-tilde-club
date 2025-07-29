@@ -23,6 +23,93 @@ www.w3.org</A></I></P>
 <HR>
 <H2>Updates</H2>
 <DL>
+    <DT>
+        July 2025
+    </DT>
+    <DD>
+        <UL>
+            <LI>
+                <A HREF="https://lab.artlung.com/slideorama-pinwheels/">
+                    Slideorama Pinwheels
+                </A>
+            </LI>
+            <LI>
+                Comic Con month. FrESH has continued biweekly and I'm really happy with that.
+                I also showed work at WOCA in Orange County. In honor of
+                that I created a page for my <A HREF="https://artlung.com/art/">
+                    Art
+                </A>.
+            </LI>
+            <LI>
+                barnold, a fellow ~♣ user, created a mechanism
+                <A HREF="https://tilde.club/~barnold/how-to-comment.html">
+                    for commenting on Tildeverse pages
+                </A>
+            </LI>
+
+
+        </UL>
+    </DD>
+
+    <DT>
+        June 2025
+    </DT>
+    <DD>
+        <UL>
+            <LI>
+                <A href="https://lab.artlung.com/wml/faux">
+                    WML, WAP, &amp; Microformats Demo! by ArtLung
+                </A>
+            </LI>
+            <LI>
+                Not new, but I made a <a href="https://artlung.com/now/">NOW</a> slash page which pulls things in dynamically.
+            </LI>
+            <LI>
+                Hey! I found another Tilde Club user who accepts webmentions!
+                    <A href="https://tilde.club/~schussat/">Alan S</A>. Nice!
+            </LI>
+        </UL>
+    </DD>
+
+    <DT>May 2025</DT>
+    <DD>
+
+        <UL>
+            <LI>
+                Since I last posted I completed my goal of making videos of myself doing <A HREF="https://artlung.com/cssbattles/">the daily CSS Battle</A> targets. There's over 700 videos and  117¼ hours of video.
+            </LI>
+            <LI>
+                <A HREF="https://artlung.com/blog/2025/06/02/youtube-mystery/">
+                    “📣 YOUTUBE REMOVED YOUR CONTENT” (A GOOGLE MYSTERY)
+                </A> was a recent adventure worth a read.
+            </LI>
+
+            <LI>
+                I added a number of links to the <A HREF="https://lab.artlung.com/">Lab</A> including:
+                    <A HREF="https://lab.artlung.com/ventcheck/">Ventcheck Bot</A>,
+                    <A HREF="https://lab.artlung.com/kanban/">Kanban board in CSS</A>,
+                    <A HREF="https://lab.artlung.com/kanban/">Kanban board in CSS, Part 2</A> (dynamic with PHP and SCSS),
+                    <A HREF="https://lab.artlung.com/rudysbg/">Rudy's Background Colour Picker</A>, and the
+                    <A HREF="https://lab.artlung.com/bookmarklets/">Bookmarklets</A> were updated.
+            </LI>
+            <LI>
+                I made my <A HREF="https://artlung.com/blogroll/">Blogroll</A> dynamic! I've also been updating
+                my <A HREF="https://artlung.com/likes/">Likes</A> page.
+            </LI>
+            <LI>
+                I made a stopwatch in CSS, <A HREF="https://codepen.io/artlung/pen/bNNXRXb">it works well</A>.
+                Also on CodePen is
+                <A HREF="https://codepen.io/artlung/pen/ZYYNJOx">
+                    a simulated lined green and white printer paper</A>.
+            </LI>
+        </UL>
+
+
+
+
+
+    </DD>
+
 
     <DT>April 2025</DT>
     <DD>
@@ -222,6 +309,8 @@ It's Comic-Con month. It ought to be fun! Rock on people!
 <P><A href="https://validator.w3.org/check?uri=https://tilde.club/~artlung/"><IMG src="https://lab.artlung.com/html-2.0/valid_html.gif" alt="Checked - HTML 2.0"></A>
 
  <A href="https://validator.w3.org/check?uri=https://tilde.club/~artlung/"><IMG src="https://www.w3.org/Icons/valid-html20"></A>
+
+    <A href="https://artlung.com/"><img src="https://apps.artlung.com/logo-i-zer/88x31.php?c0=FECB65&amp;c1=447FB2" alt="ARTLUNG ❤️ Joe Crawford"></A>
 
   <HR>
 
