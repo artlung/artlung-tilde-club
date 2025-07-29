@@ -1,0 +1,1 @@
+shot-scraper https://tilde.club/~artlung/ --width 1200 --height 630 --quality 80 -o public_html/og-tilde-club-artlung.jpg

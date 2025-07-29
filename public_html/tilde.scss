@@ -7,9 +7,11 @@ body {
   box-sizing: border-box;
   margin: 0 auto;
   padding: 2ch;
-  background: linear-gradient(#fff, #fff) 50% 50% / 72ch 200% repeat-y, conic-gradient(from var(--from), red, orange, blue, green, indigo, violet) 50% 50% / 73ch 300% no-repeat #ccc;
-  height: 100%;
-  animation: swirl 20s infinite;
+  background: linear-gradient(#fff, #fff) 50% 50% / 72ch 200% repeat-y, conic-gradient(from var(--from), red, orange, blue, green, indigo, violet) 50% 50% / 73ch 100vh no-repeat #ccc;
+  background-attachment: fixed;
+  min-height: 100%;
+  transition: background 0.5s ease-in-out;
+  animation: swirl 6s infinite;
   --from: 45deg;
 
   > p:last-child {
@@ -96,4 +98,13 @@ dl:has(+ form) {
 
 }
 
+a:has(img[ismap]) {
+  display: block;
+  width: min-content;
+  img {
+    display: block;
+    width: 549px;
+    height: 60px;
+  }
+}
 
