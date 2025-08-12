@@ -23,6 +23,34 @@ www.w3.org</A></I></P>
 <HR>
 <H2>Updates</H2>
 <DL>
+    <DT>August 2025</DT>
+    <DD>
+        <UL>
+            <LI>I keep making <a href="https://artlung.com/likes/">Likes</a> and love adding to my <a href="http://artlung.com/blogroll/">Blogroll</a>.</LI>
+            <LI>
+More pages: <a href="https://artlung.com/projects/">Projects</a>, <A href="https://artlung.com/elsewhere/">Elsewhere</A> (for current and also dead social media accounts), and the, the
+                biggie new page: <a href="http://artlung.com/toys/">Toys</a> for digital toys! Super happy with that one.
+            </LI>
+            <li>
+                For HTML Day (<a href="https://html.energy/">HTML.Energy</a>) I created a page
+                which listed every HTML element in HTML5:
+                <a href="https://artlung.com/html-day/">HTML Day</a>. That was really fun. It's got a logo that randomly wanders around the page.
+            </li>
+            <LI>
+                IndieWeb Carnivals, recently:
+                    <a href="https://artlung.com/blog/2025/08/07/colors-indieweb-carnival/">
+                        Colors
+                    </a> (August 2025),
+                    <a href="https://artlung.com/blog/2025/07/29/totems/">
+                        Totems
+                    </a> (July 2025).
+
+            </LI>
+        </UL>
+
+    </DD>
+
+
     <DT>
         July 2025
     </DT>
