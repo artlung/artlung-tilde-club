@@ -28,7 +28,7 @@ dd {
 }
 
 
-form {
+form[method="post"] {
   margin: 0;
   display: grid;
   gap: 1rem;
@@ -47,6 +47,82 @@ form {
   input {
     padding: 0.5rem;
   }
+}
+form:has(h2) {
+  h2 {
+    > samp {
+
+    }
+    > b {
+      color: color-mix(in srgb, currentColor 80%, yellowgreen);
+      background: yellowgreen;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      display: inline-flex;
+      justify-content: center;
+      gap: 2px;
+      align-items: center;
+      padding: 2px;
+      font-weight: normal;
+      font-size: 1.5rem;
+      position: relative;
+      border: 1px solid;
+    }
+    > i {
+      font-size: 1rem;
+      font-weight: normal;
+      font-family: system-ui, sans-serif;
+      display: inline-block;
+      max-height:0;
+      overflow:hidden;
+      transition:max-height 0.3s linear;
+    }
+  }
+
+
+
+  /* tilde.css | https://tilde.club/~artlung/tilde.css?1755789401 */
+
+  form:has(h2) h2 > i {
+    padding: 0.5lh;
+    background: yellowgreen;
+    line-height: 1.4rem;
+    margin: 1lh 0;
+  }
+
+
+
+
+
+
+
+
+
+  &:has(input:checked) {
+    h2 {
+      > i {
+        margin: 1lh 0 0;
+        max-height: 10lh;
+        border: 1px solid;
+        background: yellowgreen;
+        padding: 1lh;
+      }
+      > b {
+        &::after {
+          content: '';
+          position: absolute;
+          display: block;
+          height: 1lh;
+          overflow: hidden;
+          background: yellowgreen;
+          bottom: -1lh;
+          border-inline: 1px solid;
+          width: 0.2rem;
+        }
+      }
+    }
+  }
+
 }
 
 
