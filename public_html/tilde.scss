@@ -1,5 +1,6 @@
 html {
-  height: 100%
+  height: 100%;
+  color-scheme: light dark;
 }
 
 body {
@@ -7,12 +8,14 @@ body {
   box-sizing: border-box;
   margin: 0 auto;
   padding: 2ch;
-  background: linear-gradient(#fff, #fff) 50% 50% / 72ch 200% repeat-y, conic-gradient(from var(--from), red, orange, blue, green, indigo, violet) 50% 50% / 73ch 100vh no-repeat #ccc;
-  background-attachment: fixed;
   min-height: 100%;
   transition: background 0.5s ease-in-out;
   animation: swirl 6s infinite;
   --from: 45deg;
+  background: linear-gradient(var(--baseColor), var(--baseColor)) 50% 50%/72ch 200% repeat-y,conic-gradient(from var(--from), red, orange, blue, green, indigo, violet) 50% 50%/73ch 100vh no-repeat var(--leastColor);
+  background-attachment: fixed;
+  --baseColor: light-dark(#fff, #191919);
+  --leastColor: light-dark(#fee9ec,rebeccapurple);
 
   > p:last-child {
     padding: 0 0 3ch 0;
@@ -35,7 +38,9 @@ form[method="post"] {
   padding: 1rem;
   background: lightyellow;
   border: 2px solid yellow;
-  font-family: sans-serif;
+  font-family: system-ui, sans-serif;
+  color: #666;
+
   * {
     margin: 0;
     padding: 0;
@@ -142,7 +147,7 @@ h2:has(+ dl + form) {
   background: bisque;
   padding: 0.1rem 0.5rem;
   line-height: 1;
-  color: darkred;
+  color: #fa7b7b;
   font-family: sans-serif;
 }
 
@@ -154,9 +159,8 @@ dl:has(+ form) {
   margin: 0 0 1rem 0.75rem;
 
   dt {
-    /* background: red; */
     font-weight: normal;
-    color: darkred;
+    color: #fa7b7b;
   }
   dd {
     margin: 0 0 0 1rem;
@@ -183,4 +187,3 @@ a:has(img[ismap]) {
     height: 60px;
   }
 }
-

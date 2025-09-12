@@ -1,0 +1,1 @@
+setInterval(() => {p = document.querySelector('p').style;d = new Date();p.setProperty('--h', d.getHours()*30+'deg');p.setProperty('--m', d.getMinutes()*6+'deg');p.setProperty('--s', d.getSeconds()*6+'deg');}, 1000)

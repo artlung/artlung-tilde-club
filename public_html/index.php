@@ -30,7 +30,7 @@ www.w3.org</A></I></P>
     $text_fragments = [
       ['Webmentions', 'Updates'],
        ['little web pages.', 'FRIEND~1.HTM'],
-        ['THOMAS','About This Site'],
+        ['MATT','About This Site'],
         ['slash links!', 'Webmentions'],
     ];
 
@@ -67,6 +67,23 @@ www.w3.org</A></I></P>
     <DT>September 2025</DT>
     <DD>
         <UL>
+            <LI>
+                This page now has support for
+                <!--dark mode mdn-->
+                dark mode. It is effectively the same as
+                <A HREF="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme">
+                    <CODE>prefers-color-scheme</CODE>
+                </A>
+                but mostly works via <CODE><A HREF="https://developer.mozilla.org/en-US/docs/Web/CSS/color-scheme">
+                        color-scheme</A>: light dark;</CODE> and a few
+                usages of the function <A HREF="https://developer.mozilla.org/en-US/docs/Web/CSS/light-dark()">
+                    <CODE>light-dark()</CODE></A>. I don't offer a toggle. It works based on
+                your own system preference.
+            </LI>
+            <LI>
+                I made a mini-clock with very minimal HTML and CSS and JavaScript:
+                <a href="https://tilde.club/~artlung/miniclock/">JOE MINI CLOCK</a>
+            </LI>
             <LI>I submitted this site to <a href="https://xhtml.club/">XHTML Club</a>. And used <a href="https://codeberg.org/">Codeberg</a> for the <a href="https://codeberg.org/btxx/xhtml-club/pulls/1">first time</a>.</LI>
         </UL>
     </DD>
@@ -416,14 +433,14 @@ It's Comic-Con month. It ought to be fun! Rock on people!
   <HR>
 
 
-<?php require 'webmention.php'; ?>
+<?php require __DIR__ . '/webmention.php'; ?>
 
 
 <HR>
 
 <P><A href="https://validator.w3.org/check?uri=https://tilde.club/~artlung/"><IMG src="https://lab.artlung.com/html-2.0/valid_html.gif" alt="Checked - HTML 2.0"></A>
 
- <A href="https://validator.w3.org/check?uri=https://tilde.club/~artlung/"><IMG src="https://www.w3.org/Icons/valid-html20"></A>
+ <A href="https://validator.w3.org/check?uri=https://tilde.club/~artlung/"><IMG src="https://www.w3.org/Icons/valid-html20" ALT="VALID HTML 2.0"></A>
 
     <A href="https://artlung.com/"><img src="https://apps.artlung.com/logo-i-zer/88x31.php?c0=FECB65&amp;c1=447FB2" alt="ARTLUNG ❤️ Joe Crawford"></A>
 
@@ -431,7 +448,7 @@ It's Comic-Con month. It ought to be fun! Rock on people!
 
 <P>
 
-  <A href="./tilde.map.php"><IMG src="https://tilde.club/~harper/webring.png" ismap></A>
+  <A href="./tilde.map.php"><IMG src="https://tilde.club/~harper/webring.png" ismap ALT="IndieWeb Webring"></A>
 
   <I>
 Click for the [
