@@ -16,7 +16,7 @@ class WebmentionIoClient
      */
     private $data;
 
-    private $cacheFile = 'cache/.webmentions.json';
+    private $cacheFile = __DIR__ . '/cache/.webmentions.json';
 
     public function setUrl($string)
     {
@@ -54,7 +54,7 @@ class WebmentionIoClient
      */
     private function getToken()
     {
-        $token = file_get_contents('.webmention-token');
+        $token = file_get_contents(__DIR__ . '/.webmention-token');
         if (!$token) {
             throw new Exception("No token found. Create a file .webmention-token with your token.");
         }

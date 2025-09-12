@@ -63,6 +63,13 @@ www.w3.org</A></I></P>
 </P>
 
 <DL>
+
+    <DT>September 2025</DT>
+    <DD>
+        <UL>
+            <LI>I submitted this site to <a href="https://xhtml.club/">XHTML Club</a>. And used <a href="https://codeberg.org/">Codeberg</a> for the <a href="https://codeberg.org/btxx/xhtml-club/pulls/1">first time</a>.</LI>
+        </UL>
+    </DD>
     <DT>August 2025</DT>
     <DD>
         <UL>
