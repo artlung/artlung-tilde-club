@@ -84,24 +84,12 @@ form:has(h2) {
     }
   }
 
-
-
-  /* tilde.css | https://tilde.club/~artlung/tilde.css?1755789401 */
-
   form:has(h2) h2 > i {
     padding: 0.5lh;
     background: yellowgreen;
     line-height: 1.4rem;
     margin: 1lh 0;
   }
-
-
-
-
-
-
-
-
 
   &:has(input:checked) {
     h2 {
@@ -150,7 +138,6 @@ h2:has(+ dl + form) {
   color: #fa7b7b;
   font-family: sans-serif;
 }
-
 
 dl:has(+ form) {
   display: grid;
