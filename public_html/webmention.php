@@ -1,7 +1,7 @@
 <H2>Webmentions</H2>
 <?php
 
-require_once 'WebmentionIoClient.class.php';
+require_once __DIR__ . '/WebmentionIoClient.class.php';
 $wm = new WebmentionIoClient();
 $wm->setUrl('https://tilde.club/~artlung/');
 try {

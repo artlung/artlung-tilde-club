@@ -21,8 +21,111 @@
 www.w3.org</A></I></P>
 
 <HR>
+
+<h2>Index</h2>
+
+<A NAME="INDEX"></A>
+<OL>
+<?php
+    $text_fragments = [
+      ['Webmentions', 'Updates'],
+       ['little web pages.', 'FRIEND~1.HTM'],
+        ['MATT','About This Site'],
+        ['slash links!', 'Webmentions'],
+    ];
+
+    foreach($text_fragments as $text_fragment) {
+        // #:~:text=
+        // first textPrefix is "Webmentions
+        $textPrefix = $text_fragment[0];
+        $textFragment = $text_fragment[1];
+
+        printf(
+            '<LI><A HREF="https://tilde.club/~artlung/#:~:text=%s,%s">%s</A></LI>',
+                rawurlencode($textPrefix . '-'),
+            rawurlencode($textFragment),
+            $textFragment
+        );
+        $textPrefix = $textFragment;
+    }
+
+
+
+?>
+</OL>
+
+
+<HR>
 <H2>Updates</H2>
+
+<P>
+    This site has turned into a changelog for all the different weird stuff I put up on the web.
+</P>
+
 <DL>
+
+    <DT>September 2025</DT>
+    <DD>
+        <UL>
+            <LI>
+                This page now has support for
+                <!--dark mode mdn-->
+                dark mode. It is effectively the same as
+                <A HREF="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme">
+                    <CODE>prefers-color-scheme</CODE>
+                </A>
+                but mostly works via <CODE><A HREF="https://developer.mozilla.org/en-US/docs/Web/CSS/color-scheme">
+                        color-scheme</A>: light dark;</CODE> and a few
+                usages of the function <A HREF="https://developer.mozilla.org/en-US/docs/Web/CSS/light-dark()">
+                    <CODE>light-dark()</CODE></A>. I don't offer a toggle. It works based on
+                your own system preference.
+            </LI>
+            <LI>
+                I made a mini-clock with very minimal HTML and CSS and JavaScript:
+                <a href="https://tilde.club/~artlung/miniclock/">JOE MINI CLOCK</a>
+            </LI>
+            <LI>I submitted this site to <a href="https://xhtml.club/">XHTML Club</a>. And used <a href="https://codeberg.org/">Codeberg</a> for the <a href="https://codeberg.org/btxx/xhtml-club/pulls/1">first time</a>.</LI>
+        </UL>
+    </DD>
+    <DT>August 2025</DT>
+    <DD>
+        <UL>
+            <LI>I keep making <a href="https://artlung.com/likes/">Likes</a> and love adding to my <a href="http://artlung.com/blogroll/">Blogroll</a>.</LI>
+            <LI>
+More pages: <a href="https://artlung.com/projects/">Projects</a>, <A href="https://artlung.com/elsewhere/">Elsewhere</A> (for current and also dead social media accounts), and the, the
+                biggie new page: <a href="http://artlung.com/toys/">Toys</a> for digital toys! Super happy with that one.
+            </LI>
+            <li>
+                For HTML Day (<a href="https://html.energy/">HTML.Energy</a>) I created a page
+                which listed every HTML element in HTML5:
+                <a href="https://artlung.com/html-day/">HTML Day</a>. That was really fun. It's got a logo that randomly wanders around the page.
+            </li>
+            <LI>
+                IndieWeb Carnivals, recently:
+                    <a href="https://artlung.com/blog/2025/08/07/colors-indieweb-carnival/">
+                        Colors
+                    </a> (August 2025),
+                    <a href="https://artlung.com/blog/2025/07/29/totems/">
+                        Totems
+                    </a> (July 2025).
+
+            </LI>
+            <LI>
+                I made a second video reel hosted on my own site: the <a href="https://artlung.com/videos/reels/ti994a-iwc">IndieWeb Logo as a TI-BASIC</a> graphic. The first video
+                was <a href="https://artlung.com/videos/reels/pelican">When I met a pelican in the water</a>.
+            </LI>
+            <LI>
+                I am collecting examples of the markup used to make webcomics accessibile. <a href="https://lab.artlung.com/comics-a11y/">Comics Accessibilty</a>. Provide examples! Give feedback!
+            </LI>
+            <LI>
+                I discovered last night that <A HREF="https://rossabaker.com">Ross</A> has a Tildeverse page as well! His validates to the HTML 4.01 DOCTYPE! I love it!
+                <A HREF="https://tilde.town/~rossabaker/">Ross's Tilde Town</A>
+            </LI>
+        </UL>
+
+    </DD>
+
+
     <DT>
         July 2025
     </DT>
@@ -281,6 +384,35 @@ It's Comic-Con month. It ought to be fun! Rock on people!
 
 <HR>
 
+<FORM>
+<h2>
+    <SAMP>FRIEND~1.HTM</SAMP>
+    <B>(<INPUT TYPE="CHECKBOX">?)</B>
+    <I>If I had a list of friends in a file called <CODE>Friendship.html</CODE> and copied it to, say, Windows 3.1 -- it would render that filename as <SAMP>FRIEND~1.HTM</SAMP><BR><BR>
+
+        If you and I have had a conversation, please hit me with a message and I will add a link to your <A href="https://indieweb.org/tilde">Tildeverse</A> page! If I don't know you? Get to know me. <CODE>^_^</CODE>
+    </I>
+</h2>
+</FORM>
+
+<UL>
+    <LI>
+    <a HREF="https://tilde.town/~rossabaker/">ROSS</a>
+    </LI>
+    <LI>
+        <A HREF="https://tilde.club/~gRegorLove/">GREGOR</A>
+    </LI>
+    <LI>
+        <A HREF="https://tilde.club/~vanderwal/">THOMAS</A>
+    </LI>
+    <LI>
+        <A HREF="https://tilde.club/~mattl/">MATT</A>
+    </LI>
+</UL>
+
+
+<HR>
+
 <H2>About This Site</h2>
 <DL>
     <DT>Why does this page look old?
@@ -301,14 +433,14 @@ It's Comic-Con month. It ought to be fun! Rock on people!
   <HR>
 
 
-<?php require 'webmention.php'; ?>
+<?php require __DIR__ . '/webmention.php'; ?>
 
 
 <HR>
 
 <P><A href="https://validator.w3.org/check?uri=https://tilde.club/~artlung/"><IMG src="https://lab.artlung.com/html-2.0/valid_html.gif" alt="Checked - HTML 2.0"></A>
 
- <A href="https://validator.w3.org/check?uri=https://tilde.club/~artlung/"><IMG src="https://www.w3.org/Icons/valid-html20"></A>
+ <A href="https://validator.w3.org/check?uri=https://tilde.club/~artlung/"><IMG src="https://www.w3.org/Icons/valid-html20" ALT="VALID HTML 2.0"></A>
 
     <A href="https://artlung.com/"><img src="https://apps.artlung.com/logo-i-zer/88x31.php?c0=FECB65&amp;c1=447FB2" alt="ARTLUNG ❤️ Joe Crawford"></A>
 
@@ -316,7 +448,7 @@ It's Comic-Con month. It ought to be fun! Rock on people!
 
 <P>
 
-  <A href="./tilde.map.php"><IMG src="https://tilde.club/~harper/webring.png" ismap></A>
+  <A href="./tilde.map.php"><IMG src="https://tilde.club/~harper/webring.png" ismap ALT="IndieWeb Webring"></A>
 
   <I>
 Click for the [
