@@ -6,6 +6,8 @@
   <LINK rel="stylesheet" href="tilde.css<?php
     echo '?' . filemtime('tilde.css');
   ?>">
+    <LINK rel="me authn" href="https://github.com/artlung">
+    <LINK rel="me" href="https://artlung.com/">
   <LINK rel="webmention" href="https://webmention.io/artlung.com/webmention">
    <LINK rel="og:image" href="https://tilde.club/~artlung/og-tilde-club-artlung.jpg">
 </HEAD>
@@ -68,6 +70,17 @@ www.w3.org</A></I></P>
     <DD>
         <UL>
             <LI>
+                I made some <A HREF="https://codepen.io/artlung/full/RNWzYpY">Windmills</A>. There's a bird.
+            </LI>
+            <LI>
+                Using <A HREF="https://indielogin.com/">
+                    IndieLogin</A> I created myself
+                a profile page on the IndieWeb wiki associated just for this page:
+                <A HREF="https://indieweb.org/User:Tilde.club_~artlung">
+                    User:Tilde.club_~artlung
+                </A>.
+            </LI>
+            <LI>
                 This page now has support for
                 <!--dark mode mdn-->
                 dark mode. It is effectively the same as
@@ -76,7 +89,7 @@ www.w3.org</A></I></P>
                 </A>
                 but mostly works via <CODE><A HREF="https://developer.mozilla.org/en-US/docs/Web/CSS/color-scheme">
                         color-scheme</A>: light dark;</CODE> and a few
-                usages of the function <A HREF="https://developer.mozilla.org/en-US/docs/Web/CSS/light-dark()">
+                usages of the function <A HREF="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark">
                     <CODE>light-dark()</CODE></A>. I don't offer a toggle. It works based on
                 your own system preference.
             </LI>

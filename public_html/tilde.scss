@@ -174,3 +174,18 @@ a:has(img[ismap]) {
     height: 60px;
   }
 }
+
+
+h2:has(+ a[name="INDEX"]), a[name="INDEX"] ~ ol {
+  font-family: system-ui,sans-serif;
+  font-variant-caps: petite-caps;
+  font-size: 1rem;
+}
+
+h2:has(+ a[name="INDEX"]) {
+  margin-bottom: -0.8rem;
+  letter-spacing: 0.3rem;
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: 400;
+}
