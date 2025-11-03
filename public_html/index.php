@@ -8,8 +8,17 @@
   ?>">
     <LINK rel="me authn" href="https://github.com/artlung">
     <LINK rel="me" href="https://artlung.com/">
-  <LINK rel="webmention" href="https://webmention.io/artlung.com/webmention">
-   <LINK rel="og:image" href="https://tilde.club/~artlung/og-tilde-club-artlung.jpg">
+    <LINK rel="webmention" href="https://webmention.io/artlung.com/webmention">
+    <?php
+    // let's feed preview images to certain user agents
+    $userAgent = $_SERVER['HTTP_USER_AGENT'] ?? '';
+    print "<!-- User Agent: " . htmlspecialchars($userAgent) . " -->\n";
+    $mightBeBluesky = stristr($userAgent, 'bluesky') || stristr($userAgent, 'bsky.app') || stristr($userAgent, 'cardyb');
+    $mightBeMastodon = stristr($userAgent, 'mastodon') || stristr($userAgent, 'fediverse');
+    if ($mightBeBluesky || $mightBeMastodon) {
+?><LINK property="og:image" content="https://tilde.club/%7Eartlung/og-tilde-club-artlung.jpg"><?php
+    }
+    ?>
 </HEAD>
 <BODY>
 
@@ -66,6 +75,72 @@ www.w3.org</A></I></P>
 
 <DL>
 
+    <DT>
+        November 2025
+    </DT>
+    <DD>
+
+        <P>
+            <EM>
+            <a href="https://artlung.com/understandingcomics-ibc/">Understanding Comics</a>
+            </EM>
+            is the IndieWeb Book Club book. Read it! Write about it on your website! Tell me about it!
+        </P>
+
+    </DD>
+
+
+    <DT>
+        October 2025
+    </DT>
+    <DD>
+        <P>
+            I did <A HREF="https://weirdweboctober.website">Weird Web October</A> 2025. I did it every day. I surprised myself with that. I love the web so much.
+        </P>
+        <ol>
+            <li><a href="https://artlung.com/wwo/">Weird Web October 2025: Transparent Images</a></li>
+            <li><a href="https://artlung.com/wwo/2/">Weird Web October: Maps</a></li>
+            <li><a href="https://artlung.com/wwo/3/">Weird Web October: Scramble</a></li>
+            <li><a href="https://artlung.com/wwo/4/">We dance (Filter Weird Web October)</a></li>
+            <li><a href="https://lab.artlung.com/squish-stretch-web/">Squish &amp; Stretch Web Pages Bookmarklet</a></li>
+            <li><a href="https://artlung.com/wwo/6/">Solids (Weird Web October 2025: 6)</a></li>
+            <li><a href="https://artlung.com/wwo/7/">Weird Web October 2025: Sub-Optimal</a></li>
+            <li><a href="https://artlung.com/wwo/8/">WWO #8: It is clicky and griddy</a></li>
+            <li><a href="https://artlung.com/wwo/9/">Blink (Happy Halloween 2025)</a></li>
+            <li><a href="https://artlung.com/wwo/10/">Warning: No hope is on offer in this place. WWO 2025</a></li>
+            <li><a href="https://artlung.com/wwo/11/">Affirmations Mirror (WWO 2025 #11)</a></li>
+            <li><a href="https://artlung.com/wwo/12/">Battles (Weird Web October 12)</a></li>
+            <li><a href="https://lab.artlung.com/upside-down/">Upside Down Web Page Bookmarklet</a></li>
+            <li><a href="https://artlung.com/wwo/14/">Doubles Weird Web October #14 2025</a></li>
+            <li><a href="https://artlung.com/wwo/15/">Unicode: Nobody wins (WWO #15)</a></li>
+            <li><a href="https://artlung.com/wwo/16/">WWO/2025/#16/Transition</a></li>
+            <li><a href="https://artlung.com/wwo/17/">Illumination (Weird Web October 2025 #17)</a></li>
+            <li><a href="https://artlung.com/wwo/18/">WeirdCoin (Trading) WWO 2025 #18</a></li>
+            <li><a href="https://artlung.com/wwo/19/">Bounce (Weird Web October 2025 #19)</a></li>
+            <li><a href="https://artlung.com/wwo/20/">Paste Image Thingee (WWO 2020 #20)</a></li>
+            <li><a href="https://artlung.com/wwo/21/">Weird Web October 2025 ~ Prompt #21: Language</a></li>
+            <li><a href="https://artlung.com/wwo/22/">Weird Web October 2025 Prompt #22: Memory</a></li>
+            <li><a href="https://artlung.com/wwo/23/">Style (Pinwheels for Weird Web October 2025 #23)</a></li>
+            <li><a href="https://artlung.com/wwo/24/">JUST A COUNTER (WWO #24)</a></li>
+            <li><a href="https://artlung.com/wwo/25/">Empty (take a trip and run out of gas) WWO 2025 #25</a></li>
+            <li><a href="https://lab.artlung.com/bookmarklet-pattern/">Web Page Pattern Bookmarklet</a></li>
+            <li><a href="https://artlung.com/wwo/27/">Spell (WWO 27) 2025</a></li>
+            <li><a href="https://artlung.com/wwo/28/">Lincoln's Second Inaugural as Tables (WWO #28)</a></li>
+            <li><a href="https://artlung.com/wwo/29/">Surprise (a snowflake maker) (WWO 2025 #29)</a></li>
+            <li><a href="https://artlung.com/wwo/30/">ISO/IEC 15445:2000 HTML (Weird Web October 2025 #30)</a></li>
+            <li><a href="https://artlung.com/wwo/31/">Spooky Gallery ArtLung Weird Web October 2025</a></li>
+        </ol>
+
+    </DD>
+    <DD>
+        I did some other website stuff too. Updated more pages than I can remember:
+        <a href="https://artlung.com/cv/">my CV</a>,
+        <a href="https://artlung.com/blank/">this page intentionally left blank</a>,
+        and I created two pages of pages:
+        <a href="https://artlung.com/slashes/">Slashes</a> and
+        <a href="https://artlung.com/site-index/">Site Index</a>.
+    </DD>
+
     <DT>September 2025</DT>
     <DD>
         <UL>
@@ -82,7 +157,6 @@ www.w3.org</A></I></P>
             </LI>
             <LI>
                 This page now has support for
-                <!--dark mode mdn-->
                 dark mode. It is effectively the same as
                 <A HREF="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme">
                     <CODE>prefers-color-scheme</CODE>
