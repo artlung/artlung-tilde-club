@@ -28,7 +28,7 @@
 
 <P> The World-Wide Web is a hypertext-based, distributed
             information system created by researchers at CERN in
-            Switzerland. <I>See also <A href="http://www.w3.org">
+            Switzerland. <I>See also <A href="https://www.w3.org">
 www.w3.org</A></I></P>
 
 <HR>
@@ -74,6 +74,23 @@ www.w3.org</A></I></P>
 </P>
 
 <DL>
+    <DT>
+        December 2026
+    </DT>
+    <DD>
+        <P>
+            I made so many things. The <a href="https://artlung.com/mixtapes/">mixtapes</a>
+            are getting pretty good. I have a statement on AI
+            <a href="https://artlung.com/ai/">here</a>. I continue to do my
+            Front End Study Hall meetings. I mirror the IndieWeb page
+            of that <a href="https://artlung.com/fresh/">here</a>. And <a href="https://artlung.com/cssbattles/">CSS Battles</a>
+            I've been doing daily a long time. The <a href="https://artlung.com/firehose/">Firehose</a> and <a href="https://artlung.com/colophon/">Colophon</a> pages
+            tell about how my site works, and shows the latest from each and every RSS and Atom <a href="https://artlung.com/feeds/">feed</a> on the site, and on other silos, too.
+
+
+        </P>
+
+    </DD>
 
     <DT>
         November 2025
@@ -86,10 +103,12 @@ www.w3.org</A></I></P>
             </EM>
             is the IndieWeb Book Club book. Read it! Write about it on your website! Tell me about it!
         </P>
+        <P>
+            Updated <a href="https://github.com/artlung/artlung-cssbattle-plugins">ArtLung CSS Battle Plugins</a>
+
+        </P>
 
     </DD>
-
-
     <DT>
         October 2025
     </DT>
@@ -177,10 +196,10 @@ www.w3.org</A></I></P>
     <DT>August 2025</DT>
     <DD>
         <UL>
-            <LI>I keep making <a href="https://artlung.com/likes/">Likes</a> and love adding to my <a href="http://artlung.com/blogroll/">Blogroll</a>.</LI>
+            <LI>I keep making <a href="https://artlung.com/likes/">Likes</a> and love adding to my <a href="https://artlung.com/blogroll/">Blogroll</a>.</LI>
             <LI>
 More pages: <a href="https://artlung.com/projects/">Projects</a>, <A href="https://artlung.com/elsewhere/">Elsewhere</A> (for current and also dead social media accounts), and the, the
-                biggie new page: <a href="http://artlung.com/toys/">Toys</a> for digital toys! Super happy with that one.
+                biggie new page: <a href="https://artlung.com/toys/">Toys</a> for digital toys! Super happy with that one.
             </LI>
             <li>
                 For HTML Day (<a href="https://html.energy/">HTML.Energy</a>) I created a page
@@ -365,7 +384,7 @@ More pages: <a href="https://artlung.com/projects/">Projects</a>, <A href="https
     <DD>
         <UL>
             <LI>
-                <I><A href="http://smorgasborg.artlung.com/foods/">All The Foods I Cannot Eat</A></I> is a zine by <A href="https://leohblooms.com/">Leoh Blooms</A> which was made in 2017 and now has a proper home on the web.
+                <I><A href="https://smorgasborg.artlung.com/foods/">All The Foods I Cannot Eat</A></I> is a zine by <A href="https://leohblooms.com/">Leoh Blooms</A> which was made in 2017 and now has a proper home on the web.
             </LI>
             <LI>
                 On the Lab: there's
@@ -387,7 +406,7 @@ More pages: <a href="https://artlung.com/projects/">Projects</a>, <A href="https
                 <A HREF="https://smorgasborg.artlung.com/douglasadams/">Douglas Adams</A>.<BR>
                 Plus a revamped copy of
                 <I><A HREF="https://smorgasborg.artlung.com/power-of-the-powerless/">The Power  of the Powerless</A></I> by Václav Havel<BR> Lastly, I just put up a
-                <A HREF="http://smorgasborg.artlung.com/sageman/">2006 talk by Marc Sageman</A> which I think about a lot.
+                <A HREF="https://smorgasborg.artlung.com/sageman/">2006 talk by Marc Sageman</A> which I think about a lot.
             </LI>
         </UL>
 
@@ -428,10 +447,10 @@ More pages: <a href="https://artlung.com/projects/">Projects</a>, <A href="https
   <DT>November 2024</DT>
   <DD>
 <UL>
-<LI>I am still <A href="http://artlung.com/blog/">blogging</A>.</LI>
+<LI>I am still <A href="https://artlung.com/blog/">blogging</A>.</LI>
 <LI>I have added a <A href="https://artlung.com/blog/tag/indienews/">number of IndieNews</A> pieces.</LI>
 <LI>I&#39;m still going <A href="https://artlung.com/blog/tag/swim2024/">in the water</A>.</LI>
-<LI><A href="http://artlung.com/">My website</A> continues to evolve including more stuff pulled into my WordPress instance.</LI>
+<LI><A href="https://artlung.com/">My website</A> continues to evolve including more stuff pulled into my WordPress instance.</LI>
 <LI>I&#39;m doing videos <A href="https://www.youtube.com/@artlung">on YouTube</A>.</LI>
 <LI>I love doing <A href="https://cssbattle.dev/player/artlung">CSS Battles</A>!</LI>
 <LI>I added support for accepting webmentions via <A href="https://webmention.io/">webmention.io</A>.</LI>
@@ -539,9 +558,9 @@ It's Comic-Con month. It ought to be fun! Rock on people!
 
   <I>
 Click for the [
-<A href="http://tilde.club/~harper/link.html?action=random">Random page</A> ], 
+<A href="https://tilde.club/~harper/link.html?action=random">Random page</A> ],
 Want to join the ring? Click here for
-<A href="http://tilde.club/~harper/link.html?action=info">info</A>.
+<A href="https://tilde.club/~harper/link.html?action=info">info</A>.
 </I>
 
 <HR>
