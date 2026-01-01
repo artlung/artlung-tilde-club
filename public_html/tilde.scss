@@ -2,7 +2,16 @@ html {
   height: 100%;
   color-scheme: light dark;
 }
-
+body {
+  --baseColor: #fff;
+  --leastColor: #fee9ec;
+}
+@media screen and (prefers-color-scheme: dark) {
+body {
+  --baseColor: #191919;
+  --leastColor: rebeccapurple;
+}
+}
 body {
   max-width: 72ch;
   box-sizing: border-box;
@@ -14,8 +23,6 @@ body {
   --from: 45deg;
   background: linear-gradient(var(--baseColor), var(--baseColor)) 50% 50%/72ch 200% repeat-y,conic-gradient(from var(--from), red, orange, blue, green, indigo, violet) 50% 50%/73ch 100vh no-repeat var(--leastColor);
   background-attachment: fixed;
-  --baseColor: light-dark(#fff, #191919);
-  --leastColor: light-dark(#fee9ec,rebeccapurple);
 
   > p:last-child {
     padding: 0 0 3ch 0;
@@ -173,4 +180,19 @@ a:has(img[ismap]) {
     width: 549px;
     height: 60px;
   }
+}
+
+
+h2:has(+ a[name="INDEX"]), a[name="INDEX"] ~ ol {
+  font-family: system-ui,sans-serif;
+  font-variant-caps: petite-caps;
+  font-size: 1rem;
+}
+
+h2:has(+ a[name="INDEX"]) {
+  margin-bottom: -0.8rem;
+  letter-spacing: 0.3rem;
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: 400;
 }
