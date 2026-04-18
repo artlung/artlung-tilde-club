@@ -75,7 +75,28 @@ www.w3.org</A></I></P>
 
 <DL>
     <DT>
-        December 2026
+        March to April 2026
+    </DT>
+    <DD>
+        <P>
+            It has been a while since I updated this website. I have to say, I have definitely made a lot of changes to <A HREF="https://artlung.com/">artlung.com</A>, The <A HREF="https://artlung.com/sitemap/">site map</A> stands out as impressively changed. it was fun to put back the "newcomer" page. And I have begun moving more pages out of WordPress and into static pages. I still have work to do to fix the way search works. I lack a process for updating the search index. But I keep writing, and refining, and updating.
+        </P>
+    </DD>
+
+    <DT>
+        January 2026
+    </DT>
+
+    <DD>
+        <P>
+            I'm collecting url patterns for RSS/Atom feeds on websites for some sites. There are other pages which collect these, this is mine:
+            <A HREF="https://smorgasborg.artlung.com/feed-patterns/">smorgasborg.artlung.com/feed-patterns/</A>. I made a <a href="https://artlung.com/headers/-20260116">new header</a> too.
+            I've also done a fair amount of improvement of my own site's--<a href="https://artlung.com/">artlung.com</a>--code quality: PHP Unit tests, yaml linting, JSON formatting, and even some spelling fixes.
+        </P>
+    </DD>
+
+    <DT>
+        December 2025
     </DT>
     <DD>
         <P>
