@@ -75,6 +75,18 @@ www.w3.org</A></I></P>
 
 <DL>
     <DT>
+        May 2026
+    </DT>
+    <DD>
+        <P>
+        I got a new job. I got a new laptop.
+            I sold my <A HREF="https://artlung.com/art/#galletas-de-mar">art piece</A>
+            <I>Galletas de Mar pero no comer</I> aka <I>Pieces of Eight of Alta California</I>.
+            I keep on bodysurfing and post the videos at <A HREF="https://artlung.com/videos/">artlung.com/videos/</A>.
+            And <A HREF="https://artlung.com/fresh/">FrESH</A> has restarted as well. Life is good.
+        </P>
+    </DD>
+    <DT>
         March to April 2026
     </DT>
     <DD>
